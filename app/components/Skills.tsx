@@ -1,51 +1,14 @@
 'use client'
+import Image from 'next/image';
 import React from 'react';
 import SnakeGame from './SnakeGame';
 
-interface Skill {
-    name: string;
-    description?: string;
-    category: 'frontend' | 'backend' | 'tools' | 'database';
-}
+// interface Skill {
+//     name: string;
+//     description?: string;
+//     category: 'frontend' | 'backend' | 'tools' | 'database';
+// }
 
-const skills: Record<string, Skill[]> = {
-    Core: [
-        {
-            name: 'JavaScript',
-            description: 'Core language',
-            category: 'frontend'
-        },
-        {
-            name: 'TypeScript',
-            description: 'Type safety',
-            category: 'frontend'
-        },
-    ],
-    Development: [
-        {
-            name: 'Get Started',
-            description: 'Quick start guide',
-            category: 'tools'
-        },
-        {
-            name: 'Documentation',
-            description: 'Detailed docs',
-            category: 'tools'
-        },
-    ],
-    Resources: [
-        {
-            name: 'Search Docs',
-            description: 'Find what you need',
-            category: 'tools'
-        },
-        {
-            name: 'Ask Docs',
-            description: 'Get help',
-            category: 'tools'
-        },
-    ],
-};
 
 const Skills = () => {
     return (
@@ -123,12 +86,12 @@ const Skills = () => {
                                 </button>
                                 <button style={{ animationDelay: '0.3s' }} className="px-6 py-2.5 bg-[#1A1A1A] rounded-md border border-white/10 hover:bg-[#252525] transition-colors flex items-center gap-2 group">
                                     <span className="text-blue-400 text-xl group-hover:text-blue-500">
-                                        <img src="/nextjs.svg" alt="Next.js" className="w-6 h-6 fill-white filter invert-[100%] brightness-[1000%]" />
+                                        <Image src="/nextjs.svg" alt="Next.js" className="w-6 h-6 fill-white filter invert-[100%] brightness-[1000%]" width={100} height={100} />
                                     </span>
                                 </button>
                                 <button style={{ animationDelay: '0.4s' }} className="px-6 py-2.5 bg-[#1A1A1A] rounded-md border border-white/10 hover:bg-[#252525] transition-colors flex items-center gap-2 group">
                                     <span className="text-blue-400 text-xl group-hover:text-blue-500">
-                                        <img src="/python.svg" alt="Next.js" className="w-6 h-6 " />
+                                        <Image src="/python.svg" alt="Next.js" className="w-6 h-6 " width={100} height={100} />
                                     </span>
                                 </button>
                             </div>
@@ -136,27 +99,27 @@ const Skills = () => {
                             <div className="flex flex-wrap gap-4 mt-3">
                                 <button style={{ animationDelay: '0.5s' }} className="px-6 py-2.5 bg-[#1A1A1A] rounded-md border border-white/10 hover:bg-[#252525] transition-colors flex items-center gap-2 group">
                                     <span className="text-blue-400 text-xl group-hover:text-blue-500">
-                                        <img src="/postgresql.svg" alt="Next.js" className="w-[1.2rem] h-6 " />
+                                        <Image src="/postgresql.svg" alt="Next.js" className="w-[1.2rem] h-6 " width={100} height={100} />
                                     </span>
                                 </button>
                                 <button style={{ animationDelay: '0.6s' }} className="px-6 py-2.5 bg-[#1A1A1A] rounded-md border border-white/10 hover:bg-[#252525] transition-colors flex items-center gap-2 group">
                                     <span className="text-blue-300 text-xl group-hover:text-blue-500">
-                                        <img src="/mongodb.svg" alt="Next.js" className="w-[1.2rem] h-6 " />
+                                        <Image src="/mongodb.svg" alt="Next.js" className="w-[1.2rem] h-6 " width={100} height={100} />
                                     </span>
                                 </button>
                                 <button style={{ animationDelay: '0.7s' }} className="px-6 py-2.5 bg-[#1A1A1A] rounded-md border border-white/10 hover:bg-[#252525] transition-colors flex items-center gap-2 group">
                                     <span className="text-blue-400 text-xl group-hover:text-blue-500">
-                                        <img src="/cassandra.svg" alt="Next.js" className="w-[1.2rem] h-6 -mb-1" />
+                                        <Image src="/cassandra.svg" alt="Next.js" className="w-[1.2rem] h-6 -mb-1" width={100} height={100} />
                                     </span>
                                 </button>
                                 <button style={{ animationDelay: '0.8s' }} className="px-6 py-2.5 bg-[#1A1A1A] rounded-md border border-white/10 hover:bg-[#252525] transition-colors flex items-center gap-2 group">
                                     <span className="text-yellow-400 text-xl group-hover:text-yellow-500">
-                                        <img src="/nodejs.svg" alt="Next.js" className="w-[1.5rem] h-6 " />
+                                        <Image src="/nodejs.svg" alt="Next.js" className="w-[1.5rem] h-6 " width={100} height={100} />
                                     </span>
                                 </button>
                                 <button style={{ animationDelay: '0.9s' }} className="px-6 py-2.5 bg-[#1A1A1A] rounded-md border border-white/10 hover:bg-[#252525] transition-colors flex items-center gap-2 group">
                                     <span className="text-blue-400 text-xl group-hover:text-blue-500">
-                                        <img src="/laravel.svg" alt="Next.js" className="w-6 h-6 " />
+                                        <Image src="/laravel.svg" alt="Next.js" className="w-6 h-6 " width={100} height={100} />
                                     </span>
                                 </button>
                             </div>
@@ -182,23 +145,29 @@ const Skills = () => {
 
                         <div className="flex-shrink-0 mt-8 relative">
                             <SnakeGame />
-                            <img
+                            <Image
                                 src="/rick.png"
                                 alt="Rick"
                                 className="absolute top-40 bottom-0 right-0 w-30 h-auto z-10"
+                                width={100}
+                                height={100}
                             />
-                            <img
+                            <Image
                                 src="/morty.png"
                                 alt="Rick"
                                 className="absolute top-52 bottom-0 right-50 w-30 h-auto z-10"
+                                width={100}
+                                height={100}
                             />
-                            <img
+                            <Image
                                 src="/portal.png"
                                 alt="Rick"
                                 className="absolute top-50 bottom-0 right-90 w-10 h-30 z-10"
                                 style={{
                                     animation: 'portalExpand 1s ease-out forwards, portalPulse 2s ease-in-out infinite',
                                 }}
+                                width={100}
+                                height={100}
                             />
 
 

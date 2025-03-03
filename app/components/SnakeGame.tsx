@@ -191,7 +191,7 @@ const SnakeGame = () => {
     ctx.strokeStyle = '#2563EB';
     ctx.stroke();
 
-  }, [snake, food, direction, gameOver, score, generateFood]);
+  }, [snake, food, direction, gameOver,  generateFood]);
 
   const moveSnake = useCallback(() => {
     if (!isPlaying || gameOver) return;

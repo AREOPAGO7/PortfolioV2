@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import { FaGithub } from 'react-icons/fa'
-import { IoNotifications } from 'react-icons/io5'
-import { MoonIcon, SunIcon } from '@heroicons/react/24/outline'
+import { MoonIcon } from '@heroicons/react/24/outline'
 import { FaLinkedin } from 'react-icons/fa6'
+import Image from 'next/image'
 
 export default function Navbar() {
   return (
@@ -12,9 +12,12 @@ export default function Navbar() {
           
           <div className="flex-shrink-0 flex items-center space-x-2">
             <Link href="/" className="flex items-center">
-              <img
+              <Image
                 src="/logo.png"
                 className="h-6 w-auto "
+                alt="logo"
+                width={100}
+                height={100}
               />
             </Link>
            <p className='text-[#e2e3e6] font-semibold ' > Anass</p>

@@ -28,7 +28,7 @@ const Databases = () => {
                     {/* Left column for image */}
                     <div className="w-full lg:w-2/4 h-[100px]">
                         <div className="w-full  rounded-lg">
-                            <img src="/images/data.png" alt="backend" className="ml-20 w-[220px] h-[300px]-mt-4" />
+                            <Image src="/images/rickm.png" alt="backend" className="ml-20 w-[220px] h-[300px]-mt-4" width={100} height={100} />
                         </div>
                     </div>
 
@@ -47,8 +47,10 @@ const Databases = () => {
                                         <Image
                                             src={platform.icon}
                                             alt={platform.name}
-                                            fill
+                                        
                                             className="object-contain"
+                                            width={100}
+                                            height={100}
                                         />
                                     </div>
                                     <span className="text-white/90">{platform.name}</span>
