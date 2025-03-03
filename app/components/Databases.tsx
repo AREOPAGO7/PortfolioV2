@@ -28,7 +28,7 @@ const Databases = () => {
                     {/* Left column for image */}
                     <div className="w-full lg:w-2/4 h-[100px]">
                         <div className="w-full  rounded-lg">
-                            <Image src="/images/rickm.png" alt="backend" className="ml-20 w-[220px] h-[300px]-mt-4" width={100} height={100} />
+                            <Image src="/images/rickm.png" alt="backend" className="ml-20 w-[220px] h-[300px]-mt-4" width={220} height={300} />
                         </div>
                     </div>
 

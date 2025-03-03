@@ -32,7 +32,7 @@ const UiTools = () => {
                     {/* Left column for image */}
                     <div className="w-full lg:w-2/4 h-[100px]">
                         <div className="w-full  rounded-lg">
-                            <Image src="/images/morty.png" alt="backend" className="ml-20 w-[280px]  mt-6" width={100} height={100} />
+                            <Image src="/images/morty.png" alt="backend" className="ml-20 w-[280px]  mt-6" width={200} height={100} />
                         </div>
                     </div>
 

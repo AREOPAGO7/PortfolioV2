@@ -29,8 +29,15 @@ const Devops = () => {
                 <div className="flex flex-col lg:flex-row items-start gap-12">
                     {/* Left column for image */}
                     <div className="w-full lg:w-2/4 h-[100px]">
-                        <div className="w-full  rounded-lg">
-                            <Image src="/images/cloud.png" alt="backend" className="ml-20 w-[220px] h-[300px]-mt-4" width={100} height={100} />
+                        <div className="w-full rounded-lg">
+                            <Image 
+                                src="/images/cloud.png" 
+                                alt="backend" 
+                                className="ml-20 w-[220px] h-[200px] -mt-4" 
+                                width={220}
+                                height={200}
+                                quality={100}
+                            />
                         </div>
                     </div>
 
