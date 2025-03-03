@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 w-full bg-[#111111] z-1111111111  border-b-[1px] border-white/10 font-poppins">
+    <nav className="fixed top-0 w-full bg-[#111111] z-50 border-b-[1px] border-white/10 font-poppins">
         <div className="w-[70%] mx-auto  px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 w-full ">
           

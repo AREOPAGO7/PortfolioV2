@@ -29,7 +29,7 @@ const UiTools = () => {
 
                 {/* Content section */}
                 <div className="flex flex-col lg:flex-row items-start gap-12">
-                    {/* Left column for image */}
+                    {/* Left column for image */} 
                     <div className="w-full lg:w-2/4 h-[100px]">
                         <div className="w-full  rounded-lg">
                             <Image src="/images/morty.png" alt="backend" className="ml-20 w-[280px]  mt-6" width={200} height={100} />
