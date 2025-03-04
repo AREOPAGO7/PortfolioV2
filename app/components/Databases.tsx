@@ -19,7 +19,7 @@ const Databases = () => {
                <div className="mb-12">
                     <h2 className="text-3xl font-semibold text-white mb-2">Databases & ORMs</h2>
                     <p className="text-lg    text-white/80">
-                       Efficient databases and ORMs for optimal performance
+                       Efficient databases and ORMs for optimal performance.
                     </p>
                 </div>
 
