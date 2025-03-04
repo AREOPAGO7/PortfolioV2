@@ -12,12 +12,12 @@ const Databases = () => {
     ];
 
     return (
-        <div className="py-16 px-4 bg-[#111111] mt-16 mb-60">
+        <div className="py-16 px-4 bg-[#111111] mt-16 mb-36">
             <div className="max-w-6xl mx-auto flex">
                 {/* Titles section */}
                <div>
                <div className="mb-12">
-                    <h2 className="text-3xl font-semibold text-white mb-4">Databases & ORMs</h2>
+                    <h2 className="text-3xl font-semibold text-white mb-2">Databases & ORMs</h2>
                     <p className="text-xl text-white/80">
                        Efficient databases and ORMs for optimal performance
                     </p>
@@ -28,7 +28,7 @@ const Databases = () => {
                     {/* Left column for image */}
                     <div className="w-full lg:w-2/4 h-[100px]">
                         <div className="w-full  rounded-lg">
-                            <Image src="/images/rickm.png" alt="backend" className="ml-20 w-[220px] h-[300px]-mt-4" width={220} height={300} />
+                            <Image src="/images/gun.png" alt="backend" className="ml-20 w-[220px] h-[300px]-mt-4" width={220} height={300} />
                         </div>
                     </div>
 

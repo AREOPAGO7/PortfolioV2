@@ -17,7 +17,7 @@ const Platforms = () => {
                 {/* Titles section */}
                <div>
                <div className="mb-12">
-                    <h2 className="text-xl font-semibold text-white mb-4">Platforms & Tools I use</h2>
+                    <h2 className="text-xl font-semibold text-white mb-2">Platforms & Tools I use</h2>
                     <p className="text-xl text-white/80">
                         I use these platforms and tools to build my projects
                     </p>

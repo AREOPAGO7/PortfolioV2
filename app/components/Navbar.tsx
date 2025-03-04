@@ -3,6 +3,7 @@ import { FaGithub } from 'react-icons/fa'
 import { MoonIcon } from '@heroicons/react/24/outline'
 import { FaLinkedin } from 'react-icons/fa6'
 import Image from 'next/image'
+import { Tooltip } from './Tooltip'; 
 
 export default function Navbar() {
   return (
@@ -30,13 +31,13 @@ export default function Navbar() {
                 href="/get-started"
                 className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
               >
-                Home
+                Skills
               </Link>
               <Link
                 href="/documentation"
                 className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
               >
-                Skills
+                Projects
               </Link>
               <Link
                 href="/studio"
@@ -53,7 +54,7 @@ export default function Navbar() {
            
            <div className='border  border-white/10 p-2 rounded-lg'>
            <a
-              href="https://github.com/drizzle-team/drizzle-orm"
+              href="https://github.com/AREOPAGO7"
               target="_blank"
               rel="noopener noreferrer"
               
@@ -73,11 +74,12 @@ export default function Navbar() {
              
             </a>
            </div>
-           <div className='border  border-white/10 p-[6px] px-2 rounded-lg'>
-           <button className="">
-              <MoonIcon className="h-5 -mb-1" />
-              
-            </button>
+           <div className='border  border-white/10 p-[8px] px-2 rounded-lg relative group'>
+            <Tooltip content="No light mode " direction="bottom">
+              <button className="flex items-center">
+                <MoonIcon className="h-5  " />
+              </button>
+            </Tooltip>
            </div>
 
            

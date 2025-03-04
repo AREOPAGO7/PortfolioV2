@@ -14,7 +14,7 @@ const Devops = () => {
     ];
 
     return (
-        <div className="py-16 px-4 bg-[#111111] mt-16 mb-60">
+        <div className="py-16 px-4 bg-[#111111] mt-16 mb-48 ">
             <div className="max-w-6xl mx-auto flex">
                 {/* Titles section */}
                <div>
@@ -33,7 +33,7 @@ const Devops = () => {
                             <Image 
                                 src="/images/cloud.png" 
                                 alt="backend" 
-                                className="ml-20 w-[220px] h-[200px] -mt-4" 
+                                className="ml-20 w-[260px] h-[180px] -mt-4" 
                                 width={220}
                                 height={200}
                                 quality={100}

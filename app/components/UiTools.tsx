@@ -21,7 +21,7 @@ const UiTools = () => {
                 {/* Titles section */}
                 <div>
                 <div className="mb-12 w-[500px]">
-                    <h2 className="text-3xl font-semibold text-white mb-4 ">UI/UX & State Management </h2>
+                    <h2 className="text-3xl font-semibold text-white mb-2 ">UI/UX & State Management </h2>
                     <p className="text-[16px] text-white/80  ">
                         For seamless and interactive user experiences.
                     </p>
@@ -32,7 +32,7 @@ const UiTools = () => {
                     {/* Left column for image */} 
                     <div className="w-full lg:w-2/4 h-[100px]">
                         <div className="w-full  rounded-lg">
-                            <Image src="/images/morty.png" alt="backend" className="ml-20 w-[280px]  mt-6" width={200} height={100} />
+                            <Image src="/images/morty.png" alt="backend" className="ml-20 w-[280px]  " width={200} height={100} />
                         </div>
                     </div>
 

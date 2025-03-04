@@ -19,7 +19,7 @@ const freckleFace = Freckle_Face({
 });
 
 export const metadata: Metadata = {
-  title: "Your Portfolio | Anass Kalkhi",
+  title: "Anass Kalkhi",
   description: "Full Stack Developer Portfolio showcasing projects and skills",
 };
 
