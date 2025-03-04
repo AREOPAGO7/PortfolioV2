@@ -8,7 +8,7 @@ import { Tooltip } from './Tooltip';
 export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full bg-[#111111] z-50 border-b-[1px] border-white/10 font-poppins">
-        <div className="w-[70%] mx-auto  px-4 sm:px-6 lg:px-8">
+        <div className="lg:w-[70%] mx-auto  px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 w-full ">
           
           <div className="flex-shrink-0 flex items-center space-x-2">
@@ -65,7 +65,7 @@ export default function Navbar() {
            </div>
            <div className='border  border-white/10 p-2 rounded-lg'>
            <a
-              href="https://github.com/drizzle-team/drizzle-orm"
+              href="https://www.linkedin.com/in/anass-kalkhi-b994a72b4/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"

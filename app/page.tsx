@@ -10,7 +10,7 @@ export default function Home() {
   return (
    <>
     <Navbar/>
-   <div className="w-[1000px] mx-auto bg-[#111111] border-b-[1px] border-white/10">
+   <div className="lg:w-[1000px] mx-auto bg-[#111111] border-b-[1px] border-white/10">
       <Skills/>
       <Projects/>
       <UiTools/>

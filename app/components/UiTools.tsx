@@ -16,19 +16,19 @@ const UiTools = () => {
     ];
 
     return (
-        <div className="py-16 px-4 bg-[#111111] mt-16">
-            <div className="max-w-6xl  flex w-full mx-auto justify-between" >
+        <div className="py-16 px-4 bg-[#111111] mt-16 ">
+            <div className="max-w-6xl block lg:flex w-full mx-auto justify-between " >
                 {/* Titles section */}
-                <div>
-                <div className="mb-12 w-[500px]">
-                    <h2 className="text-3xl font-semibold text-white mb-2 ">UI/UX & State Management </h2>
-                    <p className="text-[16px] text-white/80  ">
+                <div className="">
+                <div className="mb-12 md:w-[500px] ml-2 lg:ml-0">
+                    <h2 className="sm:text-3xl text-xl font-semibold text-white mb-2 mx-auto">UI/UX & State Management </h2>
+                    <p className="sm:text-[16px] text-[13px]  text-white/80  ">
                         For seamless and interactive user experiences.
                     </p>
                 </div>
 
                 {/* Content section */}
-                <div className="flex flex-col lg:flex-row items-start gap-12">
+                <div className="hidden lg:block flex-col lg:flex-row items-start gap-12">
                     {/* Left column for image */} 
                     <div className="w-full lg:w-2/4 h-[100px]">
                         <div className="w-full  rounded-lg">
@@ -41,11 +41,11 @@ const UiTools = () => {
                 </div>
                 </div>
                 <div className="w-full lg:w-2/4  ">
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                        <div className="grid grid-cols-2  gap-3">
                             {platforms.map((platform, index) => (
                                 <div
                                     key={index}
-                                    className={`bg-[#282828] border border-white/10  p-4 flex items-center space-x-3 hover:bg-opacity-20 transition-all cursor-pointer`}
+                                    className={`bg-[#282828] border border-white/10 text-[12px] sm:text-md p-4 flex items-center space-x-3 hover:bg-opacity-20 transition-all cursor-pointer`}
                                 >
                                     <div className="w-6 h-6 relative">
                                         <Image
