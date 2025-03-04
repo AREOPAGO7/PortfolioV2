@@ -12,13 +12,13 @@ const Databases = () => {
     ];
 
     return (
-        <div className="py-16 px-4 bg-[#111111] mt-16 mb-36">
+        <div className="py-16 px-4 bg-[#111111] mt-16 mb-36 ">
             <div className="max-w-6xl mx-auto flex">
                 {/* Titles section */}
                <div>
                <div className="mb-12">
                     <h2 className="text-3xl font-semibold text-white mb-2">Databases & ORMs</h2>
-                    <p className="text-xl text-white/80">
+                    <p className="text-lg    text-white/80">
                        Efficient databases and ORMs for optimal performance
                     </p>
                 </div>
@@ -37,7 +37,7 @@ const Databases = () => {
                 </div>
                </div>
                 <div className="w-full lg:w-2/4">
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                        <div className="ml-2 grid grid-cols-1 md:grid-cols-2 gap-3">
                             {platforms.map((platform, index) => (
                                 <div
                                     key={index}

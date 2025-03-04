@@ -17,7 +17,7 @@ const UiTools = () => {
 
     return (
         <div className="py-16 px-4 bg-[#111111] mt-16">
-            <div className="max-w-6xl  flex w-full mx-auto">
+            <div className="max-w-6xl  flex w-full mx-auto justify-between" >
                 {/* Titles section */}
                 <div>
                 <div className="mb-12 w-[500px]">
@@ -32,7 +32,7 @@ const UiTools = () => {
                     {/* Left column for image */} 
                     <div className="w-full lg:w-2/4 h-[100px]">
                         <div className="w-full  rounded-lg">
-                            <Image src="/images/morty.png" alt="backend" className="ml-20 w-[280px]  " width={200} height={100} />
+                            <Image src="/images/morty.png" alt="backend" className=" w-[280px]  " width={200} height={100} />
                         </div>
                     </div>
 

@@ -110,7 +110,7 @@ const Skills = () => {
                                     </button>
                                 </Tooltip>
                                 <Tooltip content="Tailwind" direction="bottom">
-                                <button style={{ animationDelay: '0.7s' }} className="px-6 py-2 bg-[#1A1A1A] rounded-md border border-white/10 hover:bg-[#252525] transition-colors flex items-center gap-2 group">
+                                <button style={{ animationDelay: '0.4s' }} className="px-6 py-2 bg-[#1A1A1A] rounded-md border border-white/10 hover:bg-[#252525] transition-colors flex items-center gap-2 group">
                                         <span className="text-blue-400 text-xl group-hover:text-blue-500">
                                         <i className='bx bxl-tailwind-css w-6 h-5'></i>                                        </span>
                                     </button>
@@ -134,7 +134,7 @@ const Skills = () => {
                                 </Tooltip>
                                 <Tooltip content="Python" direction="bottom">
                                    
-                                    <button style={{ animationDelay: '0.4s' }} className="px-6 py-2.5 bg-[#1A1A1A] rounded-md border border-white/10 hover:bg-[#252525] transition-colors flex items-center gap-2 group">
+                                    <button style={{ animationDelay: '0.7s' }} className="px-6 py-2.5 bg-[#1A1A1A] rounded-md border border-white/10 hover:bg-[#252525] transition-colors flex items-center gap-2 group">
                                         <span className="text-blue-400 text-xl group-hover:text-blue-500">
                                             <Image src="/python.svg" alt="Next.js" className="w-5 h-6 " width={100} height={100} />
                                         </span>

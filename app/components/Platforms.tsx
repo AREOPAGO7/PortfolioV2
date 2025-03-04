@@ -12,14 +12,15 @@ const Platforms = () => {
     ];
 
     return (
-        <div className="py-16 px-4 bg-[#111111] mt-16 mb-60">
-            <div className="max-w-6xl mx-auto flex">
+        <div className="py-16 px-4 bg-[#111111] mt-16 mb-60 ">
+            <div className="max-w-6xl mx-auto flex justify-between ">
                 {/* Titles section */}
                <div>
                <div className="mb-12">
-                    <h2 className="text-xl font-semibold text-white mb-2">Platforms & Tools I use</h2>
-                    <p className="text-xl text-white/80">
-                        I use these platforms and tools to build my projects
+                    <h2 className="text-3xl font-semibold text-white mb-2">Platforms & Tools I use</h2>
+                    <p className="text-lg text-white/80 ">
+                        Auth and backend services, deployment <br />
+                        and version control. 
                     </p>
                 </div>
 
@@ -31,10 +32,10 @@ const Platforms = () => {
                             <Image 
                                 src="/images/rickm.png" 
                                 alt="backend"  
-                                className="ml-20 w-[220px] h-[300px] -mt-4" 
+                                className="ml-20 w-[220px] h-[220px] -mt-4" 
                                 width={220}
-                                height={300}
-                                quality={100}
+                                height={220}
+                                
                             />
                         </div>
                     </div>
@@ -43,7 +44,7 @@ const Platforms = () => {
                     
                 </div>
                </div>
-                <div className="w-full lg:w-2/4">
+                <div className="w-full pl-3 lg:w-2/4">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                             {platforms.map((platform, index) => (
                                 <div
