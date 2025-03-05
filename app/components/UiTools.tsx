@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const UiTools = () => {
     const platforms = [
-        { name: "Figma ", icon: "/platforms/figma.svg" },
+        // { name: "Figma ", icon: "/platforms/figma.svg" },
         { name: " ShadCN Ui  ", icon: "/platforms/shadcn.png" },
         { name: "Material Ui", icon: "/platforms/mui.png" },
-        { name: "Build Tool ", icon: "/platforms/vitejs.svg" },
+        // { name: "Build Tool ", icon: "/platforms/vitejs.svg" },
         { name: "Redux/RTK ", icon: "/platforms/redux.svg" },
         { name: "Zod", icon: "/platforms/zod.png" },
         { name: "Zustand", icon: "/platforms/zustand.png" },    
@@ -21,7 +21,7 @@ const UiTools = () => {
                 {/* Titles section */}
                 <div className="">
                 <div className="mb-12 md:w-[500px] ml-2 lg:ml-0">
-                    <h2 className="sm:text-3xl text-xl font-semibold text-white mb-2 mx-auto">UI/UX & State Management </h2>
+                    <h2 className="sm:text-2xl text-xl font-semibold text-white mb-2 mx-auto">UI/UX & State Management </h2>
                     <p className="sm:text-[16px] text-[13px]  text-white/80  ">
                         For seamless and interactive user experiences.
                     </p>
@@ -32,7 +32,7 @@ const UiTools = () => {
                     {/* Left column for image */} 
                     <div className="w-full lg:w-2/4 h-[100px]">
                         <div className="w-full  rounded-lg">
-                            <Image src="/images/morty.png" alt="backend" className=" w-[280px]  " width={200} height={100} />
+                            <Image src="/images/morty.png" alt="backend" className="   relative left-10 -top-4" width={180} height={80} />
                         </div>
                     </div>
 

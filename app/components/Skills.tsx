@@ -120,14 +120,14 @@ const Skills = () => {
 
                             <div className="flex flex-wrap gap-4 mt-3">
                                 <Tooltip content="postgresql" direction="bottom">
-                                    <button style={{ animationDelay: '0.5s' }} className="sm:px-6 sm:py-2.5 py-2 px-4 bg-[#1A1A1A] rounded-md border border-white/10 hover:bg-[#252525] transition-colors flex items-center gap-2 group">
+                                    <button style={{ animationDelay: '0.9s' }} className="sm:px-6 sm:py-2.5 py-2 px-4 bg-[#1A1A1A] rounded-md border border-white/10 hover:bg-[#252525] transition-colors flex items-center gap-2 group">
                                         <span className="text-blue-400 text-xl group-hover:text-blue-500">
                                             <Image src="/postgresql.svg" alt="Next.js" className="w-[1.24rem] h-6 " width={100} height={100} />
                                         </span>
                                     </button>
                                 </Tooltip>
                                 <Tooltip content="MongoDB" direction="bottom">
-                                    <button style={{ animationDelay: '0.6s' }} className="sm:px-6 sm:py-2.5 py-2 px-4 bg-[#1A1A1A] rounded-md border border-white/10 hover:bg-[#252525] transition-colors flex items-center gap-2 group">
+                                    <button style={{ animationDelay: '0.8s' }} className="sm:px-6 sm:py-2.5 py-2 px-4 bg-[#1A1A1A] rounded-md border border-white/10 hover:bg-[#252525] transition-colors flex items-center gap-2 group">
                                         <span className="text-blue-300 text-xl group-hover:text-blue-500">
                                             <Image src="/mongodb.svg" alt="Next.js" className="w-[1.3rem] h-6 " width={100} height={100} />
                                         </span>
@@ -142,14 +142,14 @@ const Skills = () => {
                                     </button>
                                 </Tooltip>
                                 <Tooltip content="Node.js" direction="bottom">
-                                    <button style={{ animationDelay: '0.8s' }} className="sm:px-6 sm:py-2.5 py-2 px-4 bg-[#1A1A1A] rounded-md border border-white/10 hover:bg-[#252525] transition-colors flex items-center gap-2 group">
+                                    <button style={{ animationDelay: '0.6s' }} className="sm:px-6 sm:py-2.5 py-2 px-4 bg-[#1A1A1A] rounded-md border border-white/10 hover:bg-[#252525] transition-colors flex items-center gap-2 group">
                                         <span className="text-yellow-400 text-xl group-hover:text-yellow-500">
                                             <Image src="/nodejs.svg" alt="Next.js" className="w-[1.5rem] h-6 " width={100} height={100} />
                                         </span>
                                     </button>
                                 </Tooltip>
                                 <Tooltip content="Laravel" direction="bottom">
-                                    <button style={{ animationDelay: '0.9s' }} className="sm:px-6 sm:py-2.5 py-2 px-4 bg-[#1A1A1A] rounded-md border border-white/10 hover:bg-[#252525] transition-colors flex items-center gap-2 group">
+                                    <button style={{ animationDelay: '0.5s' }} className="sm:px-6 sm:py-2.5 py-2 px-4 bg-[#1A1A1A] rounded-md border border-white/10 hover:bg-[#252525] transition-colors flex items-center gap-2 group">
                                         <span className="text-blue-400 text-xl group-hover:text-blue-500">
                                             <Image src="/laravel.svg" alt="Next.js" className="w-6 h-6 " width={100} height={100} />
                                         </span>
@@ -181,21 +181,21 @@ const Skills = () => {
                             <Image
                                 src="/rick.png"
                                 alt="Rick"
-                                className="absolute top-40 bottom-0 right-0 w-30 h-auto z-10"
-                                width={100}
-                                height={100}
+                                className="absolute top-36 bottom-0 right-0   z-10"
+                                width={130}
+                                height={80}
                             />
                             <Image
                                 src="/morty.png"
                                 alt="Rick"
-                                className="absolute top-52 bottom-0 right-50 w-30 h-auto z-10"
-                                width={100}
+                                className="absolute top-52 bottom-0 right-50  h-auto z-10"
+                                width={130}
                                 height={100}
                             />
                             <Image
                                 src="/portal.png"
                                 alt="Rick"
-                                className="absolute top-50 bottom-0 right-90 w-10 h-30 z-10"
+                                className="absolute top-52 bottom-0 right-100 w-10 h-30 z-10"
                                 style={{
                                     animation: 'portalExpand 1s ease-out forwards, portalPulse 2s ease-in-out infinite',
                                 }}

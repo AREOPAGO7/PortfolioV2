@@ -15,9 +15,8 @@ export default function Home() {
       <Projects/>
       <UiTools/>
       <Databases/>
-      <Platforms/>  
       <Devops/>
-     
+      <Platforms/>  
    </div>
    <Footer/>
    </>

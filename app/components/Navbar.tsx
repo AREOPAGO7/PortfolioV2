@@ -28,19 +28,19 @@ export default function Navbar() {
           <div className="ml-10 hidden md:block border border-white/10 p-3 rounded-full">
             <div className="flex items-center space-x-10 justify-center px-10 font-semibold text-sm">
               <Link
-                href="/get-started"
+                href="#"
                 className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
               >
                 Skills
               </Link>
               <Link
-                href="/documentation"
+                href="#"
                 className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
               >
                 Projects
               </Link>
               <Link
-                href="/studio"
+                href="#"
                 className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
               >
                About
@@ -57,6 +57,7 @@ export default function Navbar() {
               href="https://github.com/AREOPAGO7"
               target="_blank"
               rel="noopener noreferrer"
+              className='text-gray-300 cursor-pointer'
               
             >
               <FaGithub className="h-5 w-5" />
@@ -68,13 +69,13 @@ export default function Navbar() {
               href="https://www.linkedin.com/in/anass-kalkhi-b994a72b4/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+              className="flex items-center space-x-2  text-gray-300  cursor-pointer"
             >
               <FaLinkedin className="h-5 w-5" />
              
             </a>
            </div>
-           <div className='border  border-white/10 p-[8px] px-2 rounded-lg relative group'>
+           <div className='border  border-white/10 p-[8px] px-2 rounded-lg relative group cursor-pointer'>
             <Tooltip content="No light mode " direction="bottom">
               <button className="flex items-center">
                 <MoonIcon className="h-5  " />

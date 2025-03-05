@@ -17,7 +17,7 @@ const Databases = () => {
                 {/* Titles section */}
                <div className="">
                <div className="mb-12 m-auto ml-3 lg:ml-0">
-                    <h2 className="sm:text-3xl text-xl font-semibold text-white mb-2 ">Databases & ORMs</h2>
+                    <h2 className="sm:text-2xl text-xl font-semibold text-white mb-2 ">Databases & ORMs</h2>
                     <p className="sm:text-[16px] text-[13px] text-white/80 mr-14 w-full">
                        Efficient databases and ORMs for optimal performance.
                     </p>
@@ -28,7 +28,7 @@ const Databases = () => {
                     {/* Left column for image */}
                     <div className="w-full lg:w-2/4 h-[100px]">
                         <div className="w-full  rounded-lg">
-                            <Image src="/images/gun.png" alt="backend" className="ml-20 w-[220px] h-[300px]-mt-4" width={220} height={300} />
+                            <Image src="/images/gun.png" alt="backend" className="ml-10 -mt-4" width={180} height={300} />
                         </div>
                     </div>
 

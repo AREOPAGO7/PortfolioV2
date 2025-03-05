@@ -6,13 +6,13 @@ export default function Footer() {
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-start">
         <div className="mb-6 md:mb-0">
           <h2 className="sm:text-lg font-semibold flex items-center space-x-2">
-            <span className=""> Anass Kalkhi</span>
+            <span className="text-white/70 text-sm"> Anass Kalkhi.online</span>
           </h2>
-          <p className="sm:text-sm text-[12px] mt-1 text-gray-400">Anass Kalkhi © 2025 . All rights reserved.</p>
-          <div className="flex space-x-4 mt-3">
-           <a href="https://github.com/AREOPAGO7/"  target="_blank"> <FaGithub className="text-gray-400 hover:text-white text-xl cursor-pointer" /></a>
+          <p className=" text-[12px] mt-1 text-white/50">Anass Kalkhi © 2025 . All rights reserved.</p>
+          <div className="flex space-x-4 mt-3 text-white/70">
+           <a href="https://github.com/AREOPAGO7/"  target="_blank"> <FaGithub className=" hover:text-white text-xl cursor-pointer" /></a>
             <FaDiscord className="text-gray-400 hover:text-white text-xl cursor-pointer" />
-            <a href="https://x.com/Anas13764089068"  target="_blank"><FaXTwitter className="text-gray-400 hover:text-white text-xl cursor-pointer" /></a>
+            <a href="https://x.com/Anas13764089068"  target="_blank"><FaXTwitter className=" hover:text-white text-xl cursor-pointer" /></a>
           </div>
         </div>
 
@@ -24,7 +24,7 @@ export default function Footer() {
             <ul className="space-y-1 text-[12px] text-white/40">
               <li className="hover:underline cursor-pointer">Web Development</li>
               <li className="hover:underline cursor-pointer">UI/UX Design</li>
-              <li className="hover:underline cursor-pointer">Consulting</li>
+              
               <li className="hover:underline cursor-pointer"></li>
             </ul>
           </div>
@@ -35,7 +35,7 @@ export default function Footer() {
             <ul className="space-y-1 text-[12px] text-white/40">
               <li className="hover:underline cursor-pointer">Email Me </li>
               <li className="hover:underline cursor-pointer">Schedule Call</li>
-              <li className="hover:underline cursor-pointer">Resume</li>
+           
 
             </ul>
           </div>
@@ -43,7 +43,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white/60 font-semibold mb-2">Navigation</h3>
             <ul className="space-y-1 text-[12px] text-white/40">
-              <li className="hover:underline cursor-pointer">Home</li>
+             
               <li className="hover:underline cursor-pointer">Projects</li>
               <li className="hover:underline cursor-pointer">About</li>
 
